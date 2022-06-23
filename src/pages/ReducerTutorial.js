@@ -20,6 +20,8 @@ const ReducerTutorial = () => {
 
     return (<div>
         <h1 style={{textAlign:"center", fontSize:"3em"}}>useReducer Example</h1>
+        <h3 style={{textAlign:"center"}}>const [stateVariable, dispatch] = useReducer(reducerFunction, initialStates)</h3>
+        <h3 style={{textAlign:"center"}}>dispatch(typeObject)</h3>
         <div style={{borderBottom:"2px dotted black", borderTop:"2px dotted black"}}>
             <h1>States to be managed: "count" "showText"</h1>
             <p>Reducer function contains action types of "INCREMENT" and "toggleShowText"</p>
