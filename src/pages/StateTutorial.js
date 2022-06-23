@@ -17,7 +17,8 @@ const StateTutorial = () => {
     return <>
     <div style={{borderBottom:"2px dotted black"}}>
         <h1 style={{textAlign:"center", fontSize:"3em"}}>useState Example</h1>
-        <h3 style={{textAlign:"center"}}>const [state, setState] = useState(initialState)</h3>
+        <h3 style={{textAlign:"center"}}>const [stateVariable, setState] = useState(initialState)</h3>
+        <h3 style={{textAlign:"center"}}>setState(newState)</h3>
         <p>Here, we have the form with a handleChange function that updates state on each change</p>
         <p>The inital state of this form is an object with keys, username and email that are set to empty string values</p>
         <p>Upon each change, the handleChange function is setting the state to a new state with items in the form</p>
