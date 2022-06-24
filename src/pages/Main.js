@@ -4,6 +4,7 @@ import Home from "./Home"
 import ReducerTutorial from "./ReducerTutorial"
 import UseEffectTutorial from "./UseEffectTutorial"
 import UseRefTutorial from "./UseRefTutorial"
+import LayoutTutorial from "./LayoutTutoral"
 
 const Main = () => {
     return <>
@@ -13,7 +14,8 @@ const Main = () => {
         <Route path="/useState" element={<StateTutorial/>}/>
         <Route path="/useReducer" element={<ReducerTutorial/>}/>
         <Route path="/useEffect" element={<UseEffectTutorial/>}/>
-        <Route path="/UseRef" element={<UseRefTutorial/>}/>
+        <Route path="/useRef" element={<UseRefTutorial/>}/>
+        <Route path="/useLayoutEffect" element={<LayoutTutorial/>}/>
     </Routes>
     </>
 
