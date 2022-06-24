@@ -21,7 +21,7 @@ const UseEffectTutorial = () => {
     return <>
         <div style={{borderBottom:"2px dotted black"}}>
             <h1 style={{textAlign:"center", fontSize:"3em"}}>useEffect Example</h1>
-            <h3 style={{textAlign:"center"}}>useEffec(callbackFunction, [itemToWatchForChange])</h3>
+            <h3 style={{textAlign:"center"}}>useEffect(callbackFunction, [itemToWatchForChange])</h3>
             <p>Here, we have a useEffect function that calls from an API each time the page rerenders.</p>
             <p>The way this works is that our useEffect function accepts the parameters of a callback and item to watch for change</p>
             <p>In this example, the callback calls an API call function and has empty hard brackets for items to watch for</p>
