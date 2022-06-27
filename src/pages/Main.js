@@ -5,6 +5,7 @@ import ReducerTutorial from "./ReducerTutorial"
 import UseEffectTutorial from "./UseEffectTutorial"
 import UseRefTutorial from "./UseRefTutorial"
 import LayoutTutorial from "./LayoutTutoral"
+import ImperativeHandle from "./ImperativeHandle"
 
 const Main = () => {
     return <>
@@ -16,6 +17,7 @@ const Main = () => {
         <Route path="/useEffect" element={<UseEffectTutorial/>}/>
         <Route path="/useRef" element={<UseRefTutorial/>}/>
         <Route path="/useLayoutEffect" element={<LayoutTutorial/>}/>
+        <Route path="/useImperativeHandle" element={<ImperativeHandle/>}/>
     </Routes>
     </>
 
